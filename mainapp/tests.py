@@ -95,7 +95,6 @@ class TestNewsPage(TestCase):
         news_obj.refresh_from_db()
         self.assertTrue(news_obj.deleted)
 
-
 import pickle
 from unittest import mock
 
@@ -118,7 +117,6 @@ class TestCoursesWithMock(TestCase):
             result = self.client.get(path)
             self.assertEqual(result.status_code, HTTPStatus.OK)
             self.assertTrue(mocked_cache.called)
-
 
 from django.core import mail as django_mail
 
