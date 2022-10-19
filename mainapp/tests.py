@@ -133,7 +133,6 @@ class TestTaskMailSend(TestCase):
         self.assertEqual(django_mail.outbox[0].body, message_text)
 
 
-
 from django.conf import settings
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium.webdriver.common.by import By

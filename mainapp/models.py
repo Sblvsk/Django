@@ -103,7 +103,3 @@ class CourseTeachers(models.Model):
     class Meta:
         verbose_name = _("Teacher")
         verbose_name_plural = _("Teachers")
-
-    class Meta:
-        verbose_name = _("Teacher")
-        verbose_name_plural = _("Teachers")
